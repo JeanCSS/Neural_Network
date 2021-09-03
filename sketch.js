@@ -22,7 +22,7 @@ function draw() {
         if (nn.predict([0, 0])[0] < 0.04 && nn.predict([1, 0])[0] > 0.98) {
             train = false;
             console.log("terminou");
-            console.log(dataset);
+            //console.log(dataset);
         }
     }
 }
